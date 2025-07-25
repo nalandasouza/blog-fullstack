@@ -126,11 +126,11 @@ O script `setup.js` automatiza a criação das tabelas `users` e `posts` no banc
 ---
 
 ## 📷 Imagens
-![Screenshot](cadastro.png)
-![Screenshot](login.png)
-![Screenshot](feed.png)
-![Screenshot](postagem.png)
-![Screenshot](novo-post.png)
+![Screenshot](screenshots/cadastro.png)
+![Screenshot](screenshots/login.png)
+![Screenshot](screenshots/feed.png)
+![Screenshot](screenshots/postagem.png)
+![Screenshot](screenshots/novo-post.png)
 
 ---
 

@@ -1,0 +1,9 @@
+services:
+  db:
+    image: bitnami/mysql
+    container_name: blog_mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=
+      - MYSQL_DATABASE=blog
+    ports:
+      - "3307:3306" 

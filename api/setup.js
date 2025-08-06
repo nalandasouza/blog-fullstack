@@ -19,6 +19,7 @@ async function setup() {
       img VARCHAR(255) NOT NULL,
       date DATETIME NOT NULL,
       uid INT NOT NULL,
+      cat VARCHAR(45),
       INDEX uid_idx (uid ASC) VISIBLE,
       CONSTRAINT uid
           FOREIGN KEY (uid)

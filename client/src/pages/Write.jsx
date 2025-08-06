@@ -27,6 +27,7 @@ function Write() {
 
   const handleClick = async (e) => {
     e.preventDefault();
+
     const imgUrl = await upload();
     console.log(imgUrl);
 
@@ -45,7 +46,7 @@ function Write() {
             img: file ? imgUrl : "",
             date: moment(Date.now()).format("YYYY-MM-DD HH:mm:ss"),
           });
-          navigate("/");
+      navigate("/");
     } catch (err) {
       console.log(err);
     }
